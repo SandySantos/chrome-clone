@@ -3,7 +3,7 @@ const StickyNavbar = () => {
   const navbar = ['Updates', 'Yours', 'Safe', 'Fast', 'By Google'];
   return (
     <>
-      <div className='bg-white p-2 rounded-full shadow-sm mx-auto sticky top-7 flex items-center w-fit'>
+      <div className='bg-white p-2 rounded-full shadow-sm mx-auto sticky top-20 flex items-center w-fit'>
         {navbar.map((nav, i) => (
           <a
             href='h'
