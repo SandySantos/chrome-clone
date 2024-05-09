@@ -51,13 +51,13 @@ export const Card = () => {
             gradientTransform='matrix(1 0 0 -1 0 50)'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0' stop-color='#4caf50'></stop>
-            <stop offset='.489' stop-color='#4aaf50'></stop>
-            <stop offset='.665' stop-color='#43ad50'></stop>
-            <stop offset='.79' stop-color='#38aa50'></stop>
-            <stop offset='.892' stop-color='#27a550'></stop>
-            <stop offset='.978' stop-color='#11a050'></stop>
-            <stop offset='1' stop-color='#0a9e50'></stop>
+            <stop offset='0' stopColor='#4caf50'></stop>
+            <stop offset='.489' stopColor='#4aaf50'></stop>
+            <stop offset='.665' stopColor='#43ad50'></stop>
+            <stop offset='.79' stopColor='#38aa50'></stop>
+            <stop offset='.892' stopColor='#27a550'></stop>
+            <stop offset='.978' stopColor='#11a050'></stop>
+            <stop offset='1' stopColor='#0a9e50'></stop>
           </linearGradient>
           <path
             fill='url(#Pax8JcnMzivu8f~SZ~k1ya_ejub91zEY6Sl_gr1)'
@@ -72,13 +72,13 @@ export const Card = () => {
             gradientTransform='matrix(1 0 0 -1 0 50)'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0' stop-color='#ffd747'></stop>
-            <stop offset='.482' stop-color='#ffd645'></stop>
-            <stop offset='.655' stop-color='#fed43e'></stop>
-            <stop offset='.779' stop-color='#fccf33'></stop>
-            <stop offset='.879' stop-color='#fac922'></stop>
-            <stop offset='.964' stop-color='#f7c10c'></stop>
-            <stop offset='1' stop-color='#f5bc00'></stop>
+            <stop offset='0' stopColor='#ffd747'></stop>
+            <stop offset='.482' stopColor='#ffd645'></stop>
+            <stop offset='.655' stopColor='#fed43e'></stop>
+            <stop offset='.779' stopColor='#fccf33'></stop>
+            <stop offset='.879' stopColor='#fac922'></stop>
+            <stop offset='.964' stopColor='#f7c10c'></stop>
+            <stop offset='1' stopColor='#f5bc00'></stop>
           </linearGradient>
           <path
             fill='url(#Pax8JcnMzivu8f~SZ~k1yb_ejub91zEY6Sl_gr2)'
@@ -93,12 +93,12 @@ export const Card = () => {
             gradientTransform='matrix(1 0 0 -1 0 50)'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0' stop-color='#f7572f'></stop>
-            <stop offset='.523' stop-color='#f7552d'></stop>
-            <stop offset='.712' stop-color='#f75026'></stop>
-            <stop offset='.846' stop-color='#f7461b'></stop>
-            <stop offset='.954' stop-color='#f7390a'></stop>
-            <stop offset='1' stop-color='#f73100'></stop>
+            <stop offset='0' stopColor='#f7572f'></stop>
+            <stop offset='.523' stopColor='#f7552d'></stop>
+            <stop offset='.712' stopColor='#f75026'></stop>
+            <stop offset='.846' stopColor='#f7461b'></stop>
+            <stop offset='.954' stopColor='#f7390a'></stop>
+            <stop offset='1' stopColor='#f73100'></stop>
           </linearGradient>
           <path
             fill='url(#Pax8JcnMzivu8f~SZ~k1yc_ejub91zEY6Sl_gr3)'
@@ -113,8 +113,8 @@ export const Card = () => {
             gradientTransform='matrix(1 0 0 -1 0 50)'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0' stop-color='#2aa4f4'></stop>
-            <stop offset='1' stop-color='#007ad9'></stop>
+            <stop offset='0' stopColor='#2aa4f4'></stop>
+            <stop offset='1' stopColor='#007ad9'></stop>
           </linearGradient>
           <path
             fill='url(#Pax8JcnMzivu8f~SZ~k1yd_ejub91zEY6Sl_gr4)'

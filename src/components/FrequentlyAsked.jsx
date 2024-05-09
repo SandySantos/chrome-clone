@@ -16,8 +16,8 @@ const FrequentlyAsked = () => {
           Frequently asked questions
         </div>
         <div className=''>
-          {questions.map((question) => (
-            <>
+          {questions.map((question, i) => (
+            <div key={i}>
               <div className='flex justify-between font-bold text-2xl text-[#1967D2]'>
                 <div className=''>{question}</div>
                 <svg
@@ -36,7 +36,7 @@ const FrequentlyAsked = () => {
                 </svg>
               </div>
               <hr className='h-0.5 my-8 bg-gray-400 ' />
-            </>
+            </div>
           ))}
         </div>
       </div>

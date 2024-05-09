@@ -64,12 +64,14 @@ const Footer = () => {
       </div>
       <hr className='h-0.5 my-8 bg-gray-400 ' />
       <div className='grid grid-cols-5 gap-8 px-10'>
-        {Object.keys(footerData).map((data) => (
-          <div className='space-y-6'>
+        {Object.keys(footerData).map((data, i) => (
+          <div className='space-y-6' key={i}>
             <div className='font-semibold'>{data}</div>
             <div className='space-y-3'>
-              {footerData[data].map((el) => (
-                <div className='font-medium  text-gray-500'>{el}</div>
+              {footerData[data].map((el, i) => (
+                <div className='font-medium  text-gray-500' key={i}>
+                  {el}
+                </div>
               ))}
             </div>
           </div>
