@@ -88,7 +88,7 @@ const Updates = () => {
           from Chrome
         </div>
       </div>
-      <div className='grid lg:grid-cols-2 gap-10 p-20 mt-10 '>
+      <div className='grid grid-cols-2 gap-10 p-20 mt-10 '>
         <Card2 />
         <Card />
       </div>
